@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redact</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="name">redact</span>
+      <span class="ver">0.1</span>
+    </header>
+
+    <main>
+      <p class="host" id="host">reading the tab…</p>
+
+      <button id="toggle" class="switch" role="switch" aria-checked="true">
+        <span class="knob" aria-hidden="true"></span>
+        <span class="label" id="toggle-label">Redacting</span>
+      </button>
+
+      <p class="count"><strong id="count">0</strong> <span id="count-label">items hidden on this page</span></p>
+
+      <ul class="cats" id="cats"></ul>
+
+      <button id="pause" class="pause">Pause on this site</button>
+      <p class="note" id="note">Nothing leaves this tab. No network requests, ever.</p>
+    </main>
+
+    <footer>
+      <a id="site" href="#" target="_blank" rel="noreferrer">How the pass works ↗</a>
+      <span>MIT</span>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
