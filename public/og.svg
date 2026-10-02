@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a00" />
+      <stop offset="0.55" stop-color="#ff3d00" />
+      <stop offset="1" stop-color="#a80f00" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0503" />
+  <rect x="700" y="-120" width="620" height="620" rx="310" fill="url(#flame)" opacity="0.9" />
+  <rect x="80" y="80" width="44" height="12" fill="#ff3d00" />
+  <text x="80" y="300" font-family="Helvetica, Arial, sans-serif" font-size="112" font-weight="700" fill="#f7eada" letter-spacing="-5">Share the screen.</text>
+  <text x="80" y="410" font-family="Helvetica, Arial, sans-serif" font-size="112" font-weight="700" fill="#f7eada" letter-spacing="-5">Not the card number.</text>
+  <text x="80" y="520" font-family="Menlo, monospace" font-size="26" fill="#a8917f">Chrome extension · 5 pattern families · 0 network requests</text>
+  <text x="80" y="70" font-family="Menlo, monospace" font-size="22" fill="#ff8a00">REDACT / 0.1</text>
+</svg>
