@@ -6,7 +6,7 @@ A Chrome extension that blacks out the things you would rather not read aloud �
 live API keys, session tokens, bank accounts and customer email addresses — on the page you are
 already sharing. One shortcut. Nothing leaves the tab.
 
-[Install from the landing page](https://site-1091e99dece845399799e882a38760c7.freebuff.page) ·
+[Install from the landing page](https://redact-vercel.vercel.app) ·
 [Read the engine](src/core/redact.ts) · MIT
 
 ---

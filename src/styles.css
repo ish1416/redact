@@ -27,6 +27,7 @@
 html {
   scroll-behavior: smooth;
   background: var(--ground);
+  overflow-x: clip;
 }
 
 body {
